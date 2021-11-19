@@ -58,11 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				7ABDF4FE274782780071AFC6 /* PokedexApp.swift */,
-				7ABDF500274782780071AFC6 /* ContentView.swift */,
-				7ABDF50E2747894E0071AFC6 /* Apis */,
+				7ABDF5132747A9990071AFC6 /* Views */,
+				7ABDF50E2747894E0071AFC6 /* Api */,
 				7ABDF502274782780071AFC6 /* Assets.xcassets */,
 				7ABDF504274782780071AFC6 /* Preview Content */,
-				7ABDF51127479B460071AFC6 /* PokemonImage.swift */,
 			);
 			path = Pokedex;
 			sourceTree = "<group>";
@@ -75,13 +74,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		7ABDF50E2747894E0071AFC6 /* Apis */ = {
+		7ABDF50E2747894E0071AFC6 /* Api */ = {
 			isa = PBXGroup;
 			children = (
 				7ABDF50C274782B50071AFC6 /* Pokemon.swift */,
 				7ABDF50F274794B90071AFC6 /* PokemonSelected.swift */,
 			);
-			path = Apis;
+			path = Api;
+			sourceTree = "<group>";
+		};
+		7ABDF5132747A9990071AFC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDF500274782780071AFC6 /* ContentView.swift */,
+				7ABDF51127479B460071AFC6 /* PokemonImage.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

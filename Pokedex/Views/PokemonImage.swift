@@ -15,16 +15,15 @@ struct PokemonImage: View {
         AsyncImage(url: URL(string: pokemonSprite))
             .frame(width: 75, height: 75)
             .onAppear {
-                
-                var loadedData = UserDefaults.standard.string(forKey: imageLink)
+                let loadedData = UserDefaults.standard.string(forKey: imageLink)
                 
                 if loadedData == nil {
                     getSprite(url: imageLink)
                     UserDefaults.standard.set(imageLink, forKey: imageLink)
-                    print("New url!!! Caching...")
+                    //print("New url!!! Caching...")
                 } else {
                     getSprite(url: loadedData!)
-                    print("Loaded cached url...")
+                    //print("Using cached url...")
                 }
                 //print(pokemonSprite)
             }
