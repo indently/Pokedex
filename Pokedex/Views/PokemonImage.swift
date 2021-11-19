@@ -46,6 +46,6 @@ struct PokemonImage: View {
 struct PokemonDetail_Previews: PreviewProvider {
     static var previews: some View {
         PokemonImage()
-.previewInterfaceOrientation(.portrait)
+            .previewInterfaceOrientation(.portrait)
     }
 }
